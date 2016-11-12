@@ -1,1 +1,0 @@
-# naivescript.github.com
