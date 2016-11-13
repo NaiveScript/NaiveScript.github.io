@@ -84,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : NaiveScript
+      short_name : naivescript
     livefyre :
       site_id : 123
     intensedebate :
