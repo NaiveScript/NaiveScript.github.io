@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>NaiveScript</title>
+ <link href="http://username.github.io/atom.xml" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2016-11-12T07:35:50-08:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>NaiveScript</name>
+   <email>Wen_hongdiao@163.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>blog1</title>
+   <link href="http://username.github.io/deep%20learning/2016/11/12/my-first-blog"/>
+   <updated>2016-11-12T00:00:00-08:00</updated>
+   <id>http://username.github.io/deep%20learning/2016/11/12/my-first-blog</id>
+   <content type="html">&lt;p&gt;test&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blog2</title>
+   <link href="http://username.github.io/deep%20learning/2016/11/12/blog"/>
+   <updated>2016-11-12T00:00:00-08:00</updated>
+   <id>http://username.github.io/deep%20learning/2016/11/12/blog</id>
+   <content type="html">&lt;p&gt;my first deep learning blog&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
