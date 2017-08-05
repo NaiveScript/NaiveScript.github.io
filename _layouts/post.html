@@ -7,21 +7,10 @@ layout: default
 {% include themes/twitter/post.html %}
 
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    tex2jax: {
-      inlineMath: [ ['$','$'], ['\(', '\)'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-    MathJax.Hub.Queue(["Reprocess",MathJax.Hub,revealedDiv]);
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
+    MathJax.Hub.Config({
+     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+     });
+   </script>
 <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
