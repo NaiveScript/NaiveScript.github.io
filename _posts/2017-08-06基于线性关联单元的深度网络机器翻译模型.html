@@ -165,9 +165,9 @@ $(document).ready(function () {
 <span class="math inline">\(g_t=\sigma(W_{xg}xt+W_{hg}h_t)\)</span>
 </center>
 因此包含LAU的GRU单元的隐藏信号具备直接从输入信号提取特征的能力．<br />
-</li>
+<img src="data:text/html; charset=utf-8,Sorry%20this%20page%20does%20not%20exist%20%3D%28%0A" /></li>
 <li>讲讲Attention的思想和结构<br />
-Attention model在机器翻译模型中应用广泛，这篇文章也大致讲解了其思路： alignment model <span class="math inline">\(\alpha_{t,j}\)</span> 表达了解码器第一层位于t-1的<span class="math inline">\(s^{1}_{t-1}\)</span> 与位置编码器最顶层w位于j的 <span class="math inline">\(h^{L_{enc}}_j\)</span> 的匹配度，也可以理解为该单词在翻译时的重要程度.<br />
+Attention model在机器翻译模型中应用广泛，这篇文章也大致讲解了其思路： alignment model <span class="math inline">\(\alpha_{t,j}\)</span> 表达了解码器第一层位于t-1的<span class="math inline">\(s^{1}_{t-1}\)</span> 与位置编码器最顶层位于j的 <span class="math inline">\(h^{L_{enc}}_j\)</span> 的匹配度，也可以理解为该单词在翻译时的重要程度.<br />
 那么基于线性单元的思想，在匹配解码器隐藏信号的时候何不将该位置的目标单词的嵌入向量作为信号的一部分呢？于是文章有提出改进Attention的信号输入．具体地：以<span class="math inline">\(c_j\)</span>表示Attention输出与编码器输出的线性加权:
 <center>
 <span class="math inline">\(c_j=\sum_{t=1}^{t=Lx}\alpha_{t,j}h_t^{L_{enc}}\)</span>
